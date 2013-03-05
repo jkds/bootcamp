@@ -21,3 +21,17 @@ To test the service, open a browser and attempt to retrieve the following url:
     http://{host}:{port}/add42/123
 
 The response body should be 145
+
+## JMeter Test ##
+
+Included is a JMeter test that you can use to load test the application.
+There are variables which, if you're not using the default host and port, need to be set before running the test.
+Also in order to view the TPS and response time graphs you will need to add the plugins from:
+
+http://code.google.com/p/jmeter-plugins/
+
+The test spawns 50 threads and each thread sends random numbers to the service
+
+
+
+
