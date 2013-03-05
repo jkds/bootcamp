@@ -24,7 +24,7 @@ The response body should be 165
 
 ## JMeter Test ##
 
-Included is a JMeter test that you can use to load test the application.
+Included is a JMeter test under __src/main/jmeter__ that you can use to load test the application.
 There are variables which, if you're not using the default host and port, need to be set before running the test.
 Also in order to view the TPS and response time graphs you will need to add the plugins from:
 
