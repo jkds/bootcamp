@@ -20,7 +20,7 @@ To test the service, open a browser and attempt to retrieve the following url:
 
     http://{host}:{port}/add42/123
 
-The response body should be 145
+The response body should be 165
 
 ## JMeter Test ##
 
