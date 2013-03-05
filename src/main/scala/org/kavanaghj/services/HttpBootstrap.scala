@@ -12,8 +12,8 @@ object HttpBootstrap extends App with SprayCanHttpServerApp {
   val BINDTO_HOST_PARAM = "bindHost"
   val DEFAULT_BIND_HOST = "localhost"
   val BINDTO_PORT_PARAM = "bindPort"
-  //Specified as a string so that implicit conversion work on the
-  //can be used in getBindPort method
+  //Specified as a string so that implicit conversion works when
+  //calling the getBindPort method
   val DEFAULT_BIND_PORT = "8080"
 
   val argMap = parseArgs(args)
