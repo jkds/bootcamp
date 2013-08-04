@@ -9,7 +9,7 @@ sbt targets:
 clean 
 assembly
 
-Once the assembly plugin has created the runnable jar to execute the app use the following:
+Once the assembly plugin has created the runnable jar execute the app using the following:
 
     java -Xmx512m -Xms512m -jar http-adder-service.jar bindHost={host} bindPort={port}
 
