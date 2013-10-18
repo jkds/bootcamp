@@ -7,7 +7,7 @@ import akka.event.Logging
 
 /**
  * Actor class that implements a simple RESTful service that
- * returns the result of a number supplied multiplied by 42
+ * returns the result of a number supplied added to 42
  */
 class HttpResfulAdderRoutingActor extends Actor with HttpServiceActor {
 
