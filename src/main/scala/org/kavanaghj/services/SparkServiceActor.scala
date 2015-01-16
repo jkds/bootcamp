@@ -23,7 +23,7 @@ class SparkServiceActor extends Actor with SparkService {
 // this trait defines our service behavior independently from the service actor
 trait SparkService extends HttpService with StatUtils with Logging {
 
-  val confidenceLevel = 1.96
+  val confidenceLevel = 0.95
   val sc = new SparkContext("spark://172.31.34.192:7077", "SparkSync")
   val sqlCtx = new CassandraSQLContext(sc)
   sqlCtx.setKeyspace("capstone")
